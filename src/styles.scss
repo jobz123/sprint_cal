@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+.container-theme {
+  max-width: 960px;
+  margin: 0 auto;
+  
+  .btn-custom {
+    background: #014974;
+    color: white;
+    padding: 13px 10px;
+    &:hover{
+      background-color: #0d6193;
+      color: white;
+    }
+  }
+}
+
+.form-control {
+  &.input-wrap {
+    border: 1px solid #000;
+    padding: 10px;
+  }
+}
